@@ -167,3 +167,23 @@ cursor:pointer;
 display:none;
 margin-top:15px;
 }
+
+.light-mode header{
+    background:linear-gradient(135deg,#f0f0f0,#d8cfff);
+}
+
+.light-mode header h1{
+    color:#222;
+}
+
+.light-mode header p{
+    color:#444;
+}
+
+.light-mode header{
+    background:linear-gradient(
+        135deg,
+        #f8f8f8,
+        #e6dcff
+    );
+}
