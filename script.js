@@ -36,7 +36,6 @@ const themeOptions = document.getElementById("theme-options");
 
 themeTitle.addEventListener("click", function(){
 
-```
 if(themeOptions.style.display === "none"){
 
     themeOptions.style.display = "block";
@@ -48,7 +47,6 @@ if(themeOptions.style.display === "none"){
     themeTitle.textContent = "▶ テーマ設定";
 
 }
-```
 
 });
 
@@ -56,7 +54,6 @@ const radios = document.querySelectorAll('input[name="theme"]');
 
 radios.forEach(radio => {
 
-```
 radio.addEventListener("change", function(){
 
     if(this.value === "light"){
@@ -68,6 +65,5 @@ radio.addEventListener("change", function(){
     }
 
 });
-```
 
 });
