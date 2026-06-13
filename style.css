@@ -123,6 +123,11 @@ text-decoration:none;
     color:#111;
 }
 
+.light-mode .youtube-icon,
+.light-mode .nav-icon{
+    filter: invert(1);
+}
+
 .modal{
 display:none;
 position:fixed;
