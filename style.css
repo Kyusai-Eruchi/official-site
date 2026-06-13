@@ -34,6 +34,17 @@ color:white;
 text-decoration:none;
 }
 
+.nav-icon{
+width:24px;
+height:24px;
+vertical-align:middle;
+transition:0.3s;
+}
+
+.nav-icon:hover{
+transform:scale(1.15);
+}
+
 section{
 max-width:1000px;
 margin:auto;
