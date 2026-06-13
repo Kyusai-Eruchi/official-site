@@ -58,3 +58,17 @@ text-align:center;
 padding:30px;
 background:#000;
 }
+
+.social-links{
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+.social-links a{
+background:#7b4dff;
+color:white;
+padding:12px 25px;
+border-radius:8px;
+text-decoration:none;
+}
