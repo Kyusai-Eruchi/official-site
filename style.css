@@ -41,9 +41,11 @@ padding:50px 20px;
 }
 
 .card{
-background:#222;
-padding:20px;
-border-radius:10px;
+    background:#222;
+    padding:25px;
+    border-radius:15px;
+    border:1px solid #7b4dff;
+    box-shadow:0 0 15px rgba(123,77,255,0.3);
 }
 
 .gallery img{
