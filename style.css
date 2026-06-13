@@ -39,11 +39,17 @@ text-decoration:none;
     width:40px;
     height:40px;
     object-fit:contain;
+     display:block;
+    transition:0.3s;
+}
+
+.youtube-icon:hover{
+transform:scale(1.15);
 }
 
 .nav-icon{
-    width:40px;
-    height:40px;
+    width:30px;
+    height:30px;
     object-fit:contain;
     display:block;
     transition:0.3s;
