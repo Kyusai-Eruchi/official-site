@@ -21,12 +21,13 @@ padding:15px;
 }
 
 nav ul{
-list-style:none;
-display:flex;
-justify-content:center;
-gap:30px;
-margin:0;
-padding:0;
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    margin:0;
+    padding:0;
 }
 
 nav a{
@@ -41,10 +42,11 @@ text-decoration:none;
 }
 
 .nav-icon{
-width:24px;
-height:24px;
-vertical-align:middle;
-transition:0.3s;
+    width:40px;
+    height:40px;
+    object-fit:contain;
+    display:block;
+    transition:0.3s;
 }
 
 .nav-icon:hover{
