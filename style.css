@@ -187,3 +187,15 @@ margin-top:15px;
         #e6dcff
     );
 }
+
+.site-logo{
+    max-width:500px;
+    width:80%;
+    height:auto;
+}
+
+.subtitle{
+    margin-top:20px;
+    font-size:1.3rem;
+    letter-spacing:1px;
+}
