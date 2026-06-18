@@ -220,3 +220,11 @@ margin-top:15px;
 .light-mode #close-modal{
     color:#111;
 }
+
+body{
+    user-select:none;
+}
+
+#contact{
+    user-select:text;
+}
