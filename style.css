@@ -260,4 +260,13 @@ color:white;
         display:flex;
     }
 
+    #nav-menu{
+        background:#000;
+        width:100%;
+    }
+
+    .light-mode #nav-menu{
+        background:#ddd;
+    }
+    
 }
