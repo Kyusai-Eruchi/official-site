@@ -244,22 +244,20 @@ color:white;
 
 @media screen and (max-width:768px){
 
-```
-.menu-toggle{
-    display:block;
-}
+    .menu-toggle{
+        display:block;
+    }
 
-#nav-menu{
-    display:none;
-    flex-direction:column;
-    align-items:center;
-    gap:15px;
-    padding-top:15px;
-}
+    #nav-menu{
+        display:none;
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+        padding-top:15px;
+    }
 
-#nav-menu.active{
-    display:flex;
-}
-```
+    #nav-menu.active{
+        display:flex;
+    }
 
 }
