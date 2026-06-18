@@ -74,11 +74,6 @@ document.addEventListener("contextmenu", e => {
 
 const menuToggle = document.getElementById("menu-toggle");
 const navMenu = document.getElementById("nav-menu");
-
-menuToggle.addEventListener("click", () => {
-    navMenu.classList.toggle("active");
-});
-
 const overlay = document.getElementById("menu-overlay");
 
 menuToggle.addEventListener("click", () => {
