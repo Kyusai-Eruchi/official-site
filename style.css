@@ -233,12 +233,33 @@ body{
     display:none;
 }
 
+.menu-toggle{
+display:none;
+cursor:pointer;
+font-size:20px;
+text-align:center;
+padding:10px;
+color:white;
+}
+
 @media screen and (max-width:768px){
 
-    .break{
-        display:block;
-        flex-basis:100%;
-        height:0;
-    }
+```
+.menu-toggle{
+    display:block;
+}
+
+#nav-menu{
+    display:none;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    padding-top:15px;
+}
+
+#nav-menu.active{
+    display:flex;
+}
+```
 
 }
