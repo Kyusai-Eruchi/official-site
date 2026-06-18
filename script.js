@@ -67,3 +67,7 @@ radio.addEventListener("change", function(){
 });
 
 });
+
+document.addEventListener("contextmenu", e => {
+    e.preventDefault();
+});
