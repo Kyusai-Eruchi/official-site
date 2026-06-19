@@ -82,12 +82,6 @@ menuToggle.addEventListener("click", () => {
     overlay.classList.toggle("active");
     menuToggle.classList.toggle("active");
 
-    if(navMenu.classList.contains("active")){
-        menuToggle.textContent = "✕";
-    }else{
-        menuToggle.textContent = "☰";
-    }
-
 });
 
 overlay.addEventListener("click", () => {
@@ -95,7 +89,5 @@ overlay.addEventListener("click", () => {
     navMenu.classList.remove("active");
     overlay.classList.remove("active");
     menuToggle.classList.remove("active");
-
-    menuToggle.textContent = "☰";
 
 });
