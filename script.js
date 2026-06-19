@@ -77,11 +77,25 @@ const navMenu = document.getElementById("nav-menu");
 const overlay = document.getElementById("menu-overlay");
 
 menuToggle.addEventListener("click", () => {
+
     navMenu.classList.toggle("active");
     overlay.classList.toggle("active");
+    menuToggle.classList.toggle("active");
+
+    if(navMenu.classList.contains("active")){
+        menuToggle.textContent = "✕";
+    }else{
+        menuToggle.textContent = "☰";
+    }
+
 });
 
 overlay.addEventListener("click", () => {
+
     navMenu.classList.remove("active");
     overlay.classList.remove("active");
+    menuToggle.classList.remove("active");
+
+    menuToggle.textContent = "☰";
+
 });
