@@ -235,6 +235,11 @@ body{
 
 .menu-toggle{
     display:none;
+    transition:0.3s;
+}
+
+.menu-toggle.active{
+    transform:rotate(180deg);
 }
 
 @media screen and (max-width:768px){
