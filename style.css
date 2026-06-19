@@ -244,8 +244,8 @@ body{
         top:15px;
         right:20px;
 
-        width:35px;
-        height:30px;
+        width:30px;
+        height:24px;
 
         cursor:pointer;
         z-index:10001;
@@ -258,7 +258,7 @@ body{
 
         background:white;
 
-        margin:6px 0;
+        margin:5px 0;
 
         transition:0.3s ease;
     }
