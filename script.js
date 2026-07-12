@@ -7,7 +7,7 @@ entry.target.classList.add("show");
 }
 });
 });
-
+ 
 sections.forEach(section => {
 observer.observe(section);
 });
