@@ -11,7 +11,7 @@ entry.target.classList.add("show");
 sections.forEach(section => {
 observer.observe(section);
 });
-..
+
 const settingLink = document.getElementById("setting-link");
 const modal = document.getElementById("setting-modal");
 const closeModal = document.getElementById("close-modal");
