@@ -91,3 +91,15 @@ overlay.addEventListener("click", () => {
     menuToggle.classList.remove("active");
 
 });
+
+document.addEventListener("copy", function(e){
+
+    e.preventDefault();
+
+    alert(
+        "⚠ コピーは禁止されています。\n\n" +
+        "救済えるち公式サイトの文章・画像・ロゴ等の無断転載・無断使用は禁止されています。\n\n" +
+        "詳しくは『利用規約』『二次創作ガイドライン』をご確認ください。"
+    );
+
+});
