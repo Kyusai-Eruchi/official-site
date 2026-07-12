@@ -99,14 +99,38 @@ overlay.addEventListener("click", () => {
 
 });
 
+let allowCopy = false;
+
 document.addEventListener("copy", function(e){
+
+    if(allowCopy){
+        allowCopy = false;
+        return;
+    }
 
     e.preventDefault();
 
     alert(
         "⚠ コピーは禁止されています。\n\n" +
-        "救済えるち公式サイトの文章・画像・ロゴ等の無断転載・無断使用は禁止されています。\n\n" +
-        "詳しくは『利用規約』『二次創作ガイドライン』をご確認ください。"
+        "メールアドレスは『メールアドレスをコピー』ボタンをご利用ください。"
     );
+
+});
+
+const copyButton = document.getElementById("copy-mail");
+
+copyButton.addEventListener("click", async () => {
+
+    try{
+
+        await navigator.clipboard.writeText("kyusai.eruchi@gmail.com");
+
+        alert("メールアドレスをコピーしました。");
+
+    }catch{
+
+        alert("コピーに失敗しました。");
+
+    }
 
 });
