@@ -225,10 +225,6 @@ body{
     user-select:none;
 }
 
-#contact{
-    user-select:text;
-}
-
 .break{
     display:none;
 }
