@@ -6,7 +6,7 @@ if(entry.isIntersecting){
 entry.target.classList.add("show");
 }
 });
-});
+});a
 
 sections.forEach(section => {
 observer.observe(section);
