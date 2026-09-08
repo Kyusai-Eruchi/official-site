@@ -344,3 +344,23 @@ body{
 .copy-button:hover{
     opacity:.8;
 }
+
+.credit{
+    margin-top:30px;
+    padding-top:20px;
+    border-top:1px solid #7b4dff;
+    text-align:center;
+}
+
+.credit h3{
+    margin-bottom:10px;
+}
+
+.credit a{
+    color:#b899ff;
+    text-decoration:none;
+}
+
+.credit a:hover{
+    text-decoration:underline;
+}
